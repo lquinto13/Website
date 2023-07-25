@@ -1,0 +1,130 @@
+/* xs */
+@media (min-width: 475px){}
+
+/* sm */
+@media (min-width: 640px){}
+
+/* md */
+@media (min-width: 768px){}
+
+/* lg */
+@media (min-width: 1024px){}
+
+/* xl */
+@media (min-width: 1280px){}
+
+/* 2xl */
+@media (min-width: 1536x){}
+
+
+.login{
+    background-color: white;
+    width: 100%;
+    padding: 0.45rem;
+    font-family: 'Oswald', serif;  
+    font-weight: 700;
+    font-size: var(--size-xs);
+
+}
+
+.login__container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.login__email{
+    display: flex;
+    margin-top: 1px;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1em;
+    
+    
+}
+
+.login__email_button{
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: inline-block;    
+    margin-left: 0.5rem;
+   
+}
+
+.login__email__title{
+    color: var(--clr-neutral800);
+    display: flex;
+    align-content: center;
+}
+
+.login__contact{
+    display: flex;
+    margin-top: 1px;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1em;
+}
+.login__contact__button{
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.login__contact__title{
+    color: var(--clr-neutral800);
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+}
+
+.login__socmed{
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5em;
+}
+
+.login__fb__button{
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: inline-block;
+}
+
+.login__ig__button{
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: inline-block;
+}
+
+.login__twitter__button{
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: inline-block;
+}
+
+.login__pinterest__button{
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    display: inline-block;
+}
+
+.login__loginButton{
+    display: flex;
+    gap: 1em;
+}
+
+.login__loginButton_user{
+    margin-top: 1px;
+    color: var(--clr-neutral800);
+    width: var(--size-xl);
+    height: var(--size-xl);
+    margin-left: 0.5rem;
+}

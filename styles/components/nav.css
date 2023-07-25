@@ -1,0 +1,37 @@
+.nav{
+    background-color: var(--clr-dark);
+    height: var(--size-5xl);
+
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    height: var(--size-5xl);
+
+    
+}
+
+.nav__link{
+    color: var(--clr-light);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.75rem;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    height: var(--size-5xl);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: 0.3s;
+
+
+}
+
+.nav__link:hover{
+    background-color: var(--clr-amber);
+
+}
