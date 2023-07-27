@@ -2,6 +2,7 @@
     width: 100%;
     background-color: var(--clr-light);
     height: auto;
+    padding-bottom: 15px;
     
 }
 .header__container{
@@ -12,6 +13,7 @@
 }
 .header__logo{
     display: flex;
+    font-size: var(--size-xl);
     flex: .15;
     justify-content: end;
 }
@@ -31,17 +33,22 @@
 
 .header__search__button{
     padding: .3em;
+    width: 3rem;
     background-color: var(--clr-amber);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__search__button__icon{
-    height: 1rem;
-    width: 1rem;
+    height: 1.5rem;
+    width: 1.5rem;
     background-color: var(--clr-amber);
     
 }
 
 .header__search__input{
+    height: 2.5rem;
     width: 100%;
     border: 0px;    
     padding-left: 0.5rem;
