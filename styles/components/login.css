@@ -45,9 +45,10 @@
 }
 
 .login__email_button{
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     display: inline-block;    
     margin-left: 0.5rem;
    
@@ -67,9 +68,10 @@
     gap: 1em;
 }
 .login__contact__button{
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     display: inline-block;
     margin-left: 0.5rem;
 }
@@ -89,30 +91,34 @@
 }
 
 .login__fb__button{
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     display: inline-block;
 }
 
 .login__ig__button{
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     display: inline-block;
 }
 
 .login__twitter__button{
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     display: inline-block;
 }
 
 .login__pinterest__button{
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     display: inline-block;
 }
 
@@ -122,9 +128,9 @@
 }
 
 .login__loginButton_user{
-    margin-top: 1px;
+    margin-top: 3px;
     color: var(--clr-neutral800);
-    width: var(--size-xl);
-    height: var(--size-xl);
+    width: var(--size-base);
+    height: var(--size-base);
     margin-left: 0.5rem;
 }

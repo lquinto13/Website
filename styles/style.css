@@ -5,8 +5,11 @@
     --clr-neutral800:#262626;
     --clr-dark:#0d0d0d;
     --clr-amber:#fbbf24;
+
     --clr-violet300:#c4b5fd;
-    --clr-violet-400:#a78bfa;
+    --clr-sky300:#7dd3fc;
+    --clr-pink300:#f9a8d4;
+    --clr-rose300:#fda4af;
 
     /* sizes */
     --size-xxs: 0.5rem;

@@ -1,0 +1,164 @@
+.women{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-top:3rem ;
+    margin-bottom:3rem ;
+    margin-bottom:3rem ;
+}
+.women__container{
+    height: 35rem;
+    display: grid;
+    grid-template-rows: 1fr 3fr  7fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr 5fr 5fr 1fr;
+    padding-left: 3rem;
+    
+}
+
+.women__card{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/3;
+    border: 1px solid black;
+}
+
+
+.women__imgcontainer{
+    grid-row: 1/-1;
+    grid-column: 1/3;
+}
+
+.women__img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1/-1;
+    filter: brightness(0.5);
+    grid-column: 1/-1;
+}
+
+
+.women__imgtitle__container{
+    color: var(--clr-light);
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr 0.1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    z-index: 1;
+    
+} 
+
+.women__imgtitle{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    flex-direction: column;
+    grid-row: 3;
+    grid-column: 3;
+    z-index: 1;
+}
+
+.women__title{
+    font-size: var(--size-7xl);
+    font-weight: 300;
+
+}
+.women__link{
+    font-size:var(--size-base);
+}
+
+.women__carouselcontainer{
+    display: flex;
+    flex-direction: column;
+    grid-row: 1/-1;
+    grid-column: 4/6;
+}
+
+.women__carouseltitle{
+    font-weight: 300;
+    font-size: var(--size-xl);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 6rem;
+    justify-content: center;
+
+}
+
+.women__carouselcards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.women__carouselimg{
+    display:grid;
+    grid-template-columns: 1fr 1f 1fr;
+    grid-template-columns: 1fr 1f 1fr;
+    height: 27rem ;
+    width:25rem ;
+    /* background-color: var(--clr-rose300); */
+}
+
+.women__carouselitemimg{
+    height: 27rem ;
+    width:25rem ;
+}
+
+.women__carouseloverlay{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.4fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    height: 27rem ;
+    width:25rem ;
+    transition: .3s;
+    opacity: 0;
+
+}
+
+.women__heartoverlay{
+    margin-left: 5px;
+    grid-column: 4;
+    height: 2.5rem;
+    width: 2rem;
+}
+
+.women__carouseloverlay:hover{
+    transform: translateY(10px);
+    opacity: 1;
+}
+
+.women__carouseldesc{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.women__cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.women__price{
+    font-size:var(--size-3xl);
+    color: var(--clr-amber);
+    font-weight: 300;
+
+}
+
+.women__itemtitle{
+    font-size:var(--size-xl);
+    font-weight: 200;
+}

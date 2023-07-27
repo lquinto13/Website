@@ -4,6 +4,8 @@ import '../styles/components/login.css'
 import '../styles/components/header.css'
 import '../styles/components/nav.css'
 import '../styles/components/main.css'
+import '../styles/components/content.css'
+import '../styles/components/women.css'
 import '../styles/utils.css'
 
 
