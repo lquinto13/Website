@@ -6,6 +6,8 @@ import '../styles/components/nav.css'
 import '../styles/components/main.css'
 import '../styles/components/content.css'
 import '../styles/components/women.css'
+import '../styles/components/deals.css'
+
 import '../styles/utils.css'
 
 
