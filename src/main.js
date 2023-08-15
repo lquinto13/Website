@@ -8,6 +8,7 @@ import '../styles/components/content.css'
 import '../styles/components/women.css'
 import '../styles/components/deals.css'
 import '../styles/components/mens.css'
+import '../styles/components/footer.css'
 import '../styles/utils.css'
 
 

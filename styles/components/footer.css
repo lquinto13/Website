@@ -1,0 +1,104 @@
+.footer{
+    height: 20rem;
+    background-color: var(--clr-neutral800);
+    color: white;
+}
+
+.footer__container{
+    padding-top: 2rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap:12rem
+}
+
+.footer__addresscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--clr-neutral400);
+
+}
+
+.footer__logo{
+    font-size: var(--size-5xl);
+    color: white;
+    padding-bottom: 1rem;
+
+}
+
+.footer__address{
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+.footer__phone{
+    font-weight: 300;
+
+}
+
+.footer__email{
+    font-weight: 300;
+}
+
+.footer__email{
+    font-weight: 300;
+}
+
+.footer__myaccountcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--clr-neutral400);
+
+}
+.footer__myaccountheader{
+    font-size: var(--size-2xl);
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 1rem;
+ 
+
+}
+
+.footer__menu{
+    
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.footer__link{
+    color: var(--clr-neutral400);
+    text-decoration: none;
+
+}
+
+.footer__newslettermsg{
+    padding-top: 1rem;
+    font-size: var(--size-xl);
+    color: var(--clr-neutral400);
+}
+
+.footer__newslettersub{
+    padding-top: 1.5rem;
+    display: flex;
+}
+.footer__newsletterinput{
+    width: 60%;
+    padding: 1.25rem;
+
+
+}
+
+.footer__newsletterbutton{
+    width: 30%;
+    padding: 1.25rem;
+    background-color: var(--clr-amber);
+
+}
